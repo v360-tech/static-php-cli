@@ -22,7 +22,7 @@ on:
         description: build phpmicro binary
         type: boolean
       extensions:
-        description: extensions to compile (comma separated)
+        description: bcmath,bz2,ctype,curl,dom,fileinfo,filter,gd,iconv,mbstring,opcache,openssl,pdo,pdo_sqlite,phar,session,simplexml,sockets,sqlite3,tokenizer,xml,xmlreader,xmlwriter,zip,zlib
         required: true
         type: string
       prefer-pre-built:
